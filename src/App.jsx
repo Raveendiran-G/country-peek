@@ -2,7 +2,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
+import CountryPage from './pages/CountryPage'
 import './styles/App.css'
+import Favourites from './pages/Favourites'
 
 function App() {
   return (
@@ -14,13 +16,13 @@ function App() {
           <Route path="/" element={<Home />} />
 
           <Route
-            path="/country/:name"
-            element={<div>Country Detail Page</div>}
+            path="/country/:code"
+            element={<CountryPage />}
           />
 
           <Route
             path="/favourites"
-            element={<div>Favourites Page</div>}
+            element={<Favourites />}
           />
 
           <Route path="*" element={<NotFound />} />

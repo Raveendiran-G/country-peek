@@ -13,4 +13,6 @@ function SearchBar({ query, onQueryChange }) {
   )
 }
 
+
+
 export default SearchBar
