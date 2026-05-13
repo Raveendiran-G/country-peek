@@ -39,3 +39,61 @@
   margin-top: 1rem;
   color: #666;
 }
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+
+.card {
+  display: block;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: inherit;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.card__flag {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card__body {
+  padding: 1rem;
+}
+
+.card__name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0.75rem;
+}
+
+.card__body p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0.4rem 0;
+}
+
+.card__body p span {
+  font-weight: 600;
+  color: #444;
+}
+
+.home__status {
+  padding-top: 1rem;
+  color: #666;
+}
+
+.home__status--error {
+  color: crimson;
+}
