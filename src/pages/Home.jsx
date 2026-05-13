@@ -2,11 +2,12 @@ import { useState, useEffect } from 'react'
 import SearchBar from '../components/SearchBar'
 import CountryCard from '../components/CountryCard'
 import FilterBar from '../components/FilterBar'
-import FilterBar from '../components/FilterBar'
-const [region, setRegion] = useState('All')
-const [sortBy, setSortBy] = useState('')
+
+
 
 function Home() {
+    const [region, setRegion] = useState('All')
+    const [sortBy, setSortBy] = useState('')
     const [query, setQuery] = useState('')
     const [countries, setCountries] = useState([])
     const [loading, setLoading] = useState(false)
