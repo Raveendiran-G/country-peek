@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import CountryPage from './pages/CountryPage'
 import './styles/App.css'
+import Favourites from './pages/Favourites'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
 
           <Route
             path="/favourites"
-            element={<div>Favourites Page</div>}
+            element={<Favourites />}
           />
 
           <Route path="*" element={<NotFound />} />

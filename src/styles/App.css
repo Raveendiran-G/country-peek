@@ -202,3 +202,16 @@
   background: transparent;
   color: white;
 }
+.fav-btn {
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 0;
+  color: #666;
+}
+
+.fav-btn--saved {
+  color: crimson;
+}
