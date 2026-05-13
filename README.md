@@ -11,7 +11,7 @@ https://YOUR-USERNAME.github.io/country-peek/
 
 - Search countries by name with live results
 - Filter by region and sort by name or population
-- Full country detail page with languages, currencies, and borders
+- Full country detail page with languages, currencies, and borders .
 - Dark and light theme toggle
 - Save countries to a persistent favourites list
 
