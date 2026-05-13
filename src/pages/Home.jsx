@@ -103,10 +103,10 @@ function Home() {
 
             {!loading &&
                 !error &&
-                countries.length === 0 &&
-                !query && (
+                displayed.length === 0 &&
+                query && (
                     <p className="home__status">
-                        Start searching to explore countries.
+                        No countries found for this region.
                     </p>
                 )}
         </div>
